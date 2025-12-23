@@ -17,7 +17,7 @@ def program(n, result):
 	return modif
 print(program("3312",3))
 
-2
+# 2
 def program2(n, result):
 	string = n[:1]
 	rest = n[1::]
@@ -115,4 +115,5 @@ with open("46982.txt", "r") as f:
 				i = endI
 				count += 1
 				startFound = False
+
 	print(count)
